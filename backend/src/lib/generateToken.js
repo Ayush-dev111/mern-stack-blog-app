@@ -16,6 +16,5 @@ export const generateToken = async (userId, res) =>{
         secure: process.env.NODE_ENV === "production",
     });
 
-    console.log(token);
     return token;
 }
