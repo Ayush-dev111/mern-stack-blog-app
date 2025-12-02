@@ -26,7 +26,7 @@ export const sendResetPasswordEmail  = async (email, resetURL)=>{
     try {
       const mailOptions = {
         from: {
-        name: "Mern Auth App",
+        name: "Blog Zone",
         address: process.env.SENDER_EMAIL,
       },
         to: email,
